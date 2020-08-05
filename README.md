@@ -1,4 +1,12 @@
-# kaist
+# vue-typescript-storybook
+
+## env spec
+
+- vue
+- vuex
+- typescript
+- storybook
+- jest
 
 ## Project setup
 ```
