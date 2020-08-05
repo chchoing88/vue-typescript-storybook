@@ -3,7 +3,7 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 module.exports = {
   stories: ['../stories/**/*.stories.[tj]s'],
-  addons: ['@storybook/addon-knobs/register', '@storybook/addon-actions', '@storybook/addon-links'],
+  addons: ['@storybook/addon-knobs', '@storybook/addon-actions', '@storybook/addon-links'],
   webpackFinal: async (config) => {
     config.module.rules.push({
       test: /\.(ts|tsx)$/,
